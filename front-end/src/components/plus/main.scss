@@ -1,0 +1,19 @@
+.plus {
+  display: inline-block;
+  position: relative;
+  width: 10px;
+  height: 10px;
+
+  &::before,
+  &::after {
+    content: '';
+    width: 2px;
+    height: 10px;
+    background-color: #1c5996;
+    position: absolute;
+  }
+
+  &::after {
+    transform: rotate(90deg);
+  }
+}

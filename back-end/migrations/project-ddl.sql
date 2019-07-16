@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS Project (
+  ProjectId int(10) unsigned NOT NULL AUTO_INCREMENT,
+  Name VARCHAR (50) NOT NULL,
+  PRIMARY KEY (ProjectId)
+) ENGINE=InnoDB;

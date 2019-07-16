@@ -1,0 +1,13 @@
+.detail {
+  width: calc(90% - 40px);
+  padding: 20px;
+
+  &__tasks {
+    margin-bottom: 10px;
+  }
+
+  &__add-task {
+    color: #1c5996;
+    margin-left: 30px;
+  }
+}

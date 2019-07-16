@@ -1,0 +1,16 @@
+.arrow {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  display: inline-block;
+
+  &::after {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    position: absolute;
+    transform: rotate(45deg);
+  }
+}

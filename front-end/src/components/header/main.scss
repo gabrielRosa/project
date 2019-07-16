@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #000;
+  padding-bottom: 13px;
+  margin-bottom: 25px;
+
+  &__numbers {
+    margin-right: 25px;
+  }
+
+  &__delete {
+    color: #1c5996;
+  }
+
+  h2 {
+    font-size: 19px;
+  }
+
+  input {
+    font-size: 19px;
+    border: 0;
+  }
+}

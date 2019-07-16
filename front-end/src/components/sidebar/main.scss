@@ -1,0 +1,42 @@
+.sidebar {
+  background-color: #ccc;
+  min-height: 100vh;
+  width: 10%;
+  padding: 25px 20px;
+  border-right: 3px solid #000;
+
+  &__title {
+    font-size: 23px;
+    margin-bottom: 35px;
+  }
+
+  &__projects {
+    margin-bottom: 70%;
+
+    button {
+      display: block;
+      width: 100%;
+      text-align: left;
+      border-bottom: 1px solid #000;
+      font-size: 18px;
+      padding-bottom: 20px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      margin-bottom: 15px;
+
+      span {
+        display: inline-block;
+        min-width: 110px;
+      }
+    }
+  }
+
+  &__new-project {
+    color: #1c5996;
+
+    i {
+      margin-right: 5px;
+    }
+  }
+}
